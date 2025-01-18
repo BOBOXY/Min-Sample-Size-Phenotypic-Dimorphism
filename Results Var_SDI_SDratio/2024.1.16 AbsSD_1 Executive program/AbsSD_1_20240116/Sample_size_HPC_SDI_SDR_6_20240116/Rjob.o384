@@ -1,0 +1,54 @@
++ module load compiler/intel/intel-compiler-2017.5.239
+++ /usr/bin/modulecmd bash load compiler/intel/intel-compiler-2017.5.239
++ eval CPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include ';export' 'CPATH;FPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include' ';export' 'FPATH;INCLUDE=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include' ';export' 'INCLUDE;INTEL_LICENSE_FILE=/public/software//compiler/intel/intel-compiler-2017.5.239/licenses' ';export' 'INTEL_LICENSE_FILE;LD_LIBRARY_PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/tbb/lib/intel64' ';export' 'LD_LIBRARY_PATH;LIBRARY_PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/tbb/lib/intel64' ';export' 'LIBRARY_PATH;LOADEDMODULES=compiler/intel/intel-compiler-2017.5.239' ';export' 'LOADEDMODULES;MANPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/man/en_US:/usr/share/man' ';export' 'MANPATH;MIC_LD_LIBRARY_PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/mic:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/mic' ';export' 'MIC_LD_LIBRARY_PATH;MKLROOT=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl' ';export' 'MKLROOT;NLSPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64/locale/%l_%t/%N:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64/locale/%l_%t/%N' ';export' 'NLSPATH;PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/bin/intel64:/public/software/apps/R/4.2.3/bin/:/usr/lib64/qt-3.3/bin:/public/home/dde_nju/perl5/bin:/opt/clusconf/sbin:/opt/clusconf/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/public/home/dde_nju/.local/bin:/public/home/dde_nju/bin' ';export' 'PATH;TBBROOT=/public/software//compiler/intel/intel-compiler-2017.5.239/tbb' ';export' 'TBBROOT;_LMFILES_=/public/software/modules/compiler/intel/intel-compiler-2017.5.239' ';export' '_LMFILES_;'
+++ CPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include
+++ export CPATH
+++ FPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include
+++ export FPATH
+++ INCLUDE=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include
+++ export INCLUDE
+++ INTEL_LICENSE_FILE=/public/software//compiler/intel/intel-compiler-2017.5.239/licenses
+++ export INTEL_LICENSE_FILE
+++ LD_LIBRARY_PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/tbb/lib/intel64
+++ export LD_LIBRARY_PATH
+++ LIBRARY_PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/tbb/lib/intel64
+++ export LIBRARY_PATH
+++ LOADEDMODULES=compiler/intel/intel-compiler-2017.5.239
+++ export LOADEDMODULES
+++ MANPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/man/en_US:/usr/share/man
+++ export MANPATH
+++ MIC_LD_LIBRARY_PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/mic:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/mic
+++ export MIC_LD_LIBRARY_PATH
+++ MKLROOT=/public/software//compiler/intel/intel-compiler-2017.5.239/mkl
+++ export MKLROOT
+++ NLSPATH=/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64/locale/%l_%t/%N:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64/locale/%l_%t/%N
+++ export NLSPATH
+++ PATH=/public/software//compiler/intel/intel-compiler-2017.5.239/bin/intel64:/public/software/apps/R/4.2.3/bin/:/usr/lib64/qt-3.3/bin:/public/home/dde_nju/perl5/bin:/opt/clusconf/sbin:/opt/clusconf/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/public/home/dde_nju/.local/bin:/public/home/dde_nju/bin
+++ export PATH
+++ TBBROOT=/public/software//compiler/intel/intel-compiler-2017.5.239/tbb
+++ export TBBROOT
+++ _LMFILES_=/public/software/modules/compiler/intel/intel-compiler-2017.5.239
+++ export _LMFILES_
++ module load mpi/intelmpi/2017.4.239
+++ /usr/bin/modulecmd bash load mpi/intelmpi/2017.4.239
++ eval INCLUDE=/public/software//mpi/intelmpi/2017.4.239/intel64/include:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include ';export' 'INCLUDE;I_MPI_ROOT=/public/software//mpi/intelmpi/2017.4.239' ';export' 'I_MPI_ROOT;LD_LIBRARY_PATH=/public/software//mpi/intelmpi/2017.4.239/intel64/lib:/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/tbb/lib/intel64' ';export' 'LD_LIBRARY_PATH;LOADEDMODULES=compiler/intel/intel-compiler-2017.5.239:mpi/intelmpi/2017.4.239' ';export' 'LOADEDMODULES;MANPATH=/public/software//mpi/intelmpi/2017.4.239/man:/public/software//compiler/intel/intel-compiler-2017.5.239/man/en_US:/usr/share/man' ';export' 'MANPATH;PATH=/public/software//mpi/intelmpi/2017.4.239/intel64/bin:/public/software//compiler/intel/intel-compiler-2017.5.239/bin/intel64:/public/software/apps/R/4.2.3/bin/:/usr/lib64/qt-3.3/bin:/public/home/dde_nju/perl5/bin:/opt/clusconf/sbin:/opt/clusconf/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/public/home/dde_nju/.local/bin:/public/home/dde_nju/bin' ';export' 'PATH;_LMFILES_=/public/software/modules/compiler/intel/intel-compiler-2017.5.239:/public/software/modules/mpi/intelmpi/2017.4.239' ';export' '_LMFILES_;'
+++ INCLUDE=/public/software//mpi/intelmpi/2017.4.239/intel64/include:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/include
+++ export INCLUDE
+++ I_MPI_ROOT=/public/software//mpi/intelmpi/2017.4.239
+++ export I_MPI_ROOT
+++ LD_LIBRARY_PATH=/public/software//mpi/intelmpi/2017.4.239/intel64/lib:/public/software//compiler/intel/intel-compiler-2017.5.239/compiler/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/mkl/lib/intel64:/public/software//compiler/intel/intel-compiler-2017.5.239/tbb/lib/intel64
+++ export LD_LIBRARY_PATH
+++ LOADEDMODULES=compiler/intel/intel-compiler-2017.5.239:mpi/intelmpi/2017.4.239
+++ export LOADEDMODULES
+++ MANPATH=/public/software//mpi/intelmpi/2017.4.239/man:/public/software//compiler/intel/intel-compiler-2017.5.239/man/en_US:/usr/share/man
+++ export MANPATH
+++ PATH=/public/software//mpi/intelmpi/2017.4.239/intel64/bin:/public/software//compiler/intel/intel-compiler-2017.5.239/bin/intel64:/public/software/apps/R/4.2.3/bin/:/usr/lib64/qt-3.3/bin:/public/home/dde_nju/perl5/bin:/opt/clusconf/sbin:/opt/clusconf/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/public/home/dde_nju/.local/bin:/public/home/dde_nju/bin
+++ export PATH
+++ _LMFILES_=/public/software/modules/compiler/intel/intel-compiler-2017.5.239:/public/software/modules/mpi/intelmpi/2017.4.239
+++ export _LMFILES_
+++ cat /var/spool/torque/aux//384.admin
+++ wc -l
++ n_proc=100
++ outname=job384.adminout.log
++ cd /public/home/dde_nju/R_Jobs/ZYB20240117/Results_Var_SDI_SDratio/AbsSD_1_20240116/Sample_size_HPC_SDI_SDR_6_20240116
++ /public/software/apps/R/4.2.3/bin/R CMD BATCH --no-save Sample_size_HPC_SDI_SDR_6_20240116.R
