@@ -17,7 +17,7 @@ Platform: x86_64-pc-linux-gnu (64-bit)<br>
 
 HPC(High-performance computing) Cluster blade server
 A cluster comprises 8 compute nodes, so running 8 sets of experiments simultaneously is more time-efficient<br>
-Each node employes 100 cores for parallel processing
+Each node employes 100 cores for parallel processing (`parApply`)
 
 `sourceCpp('./RcppArma_FUNC.cpp')`:
 In `RcppArma_FUNC.cpp`, the functions `excessmassex`, `excessmassapp`, and several associated functions have been rewritten in C++.
